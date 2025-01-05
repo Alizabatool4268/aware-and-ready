@@ -20,16 +20,6 @@ const postType = defineType({
             name:"publishDate",
             type:"date"
         }),
-        defineField({
-            title:"blog owner image",
-            name:"blogOwnerImage",
-            type:"image",
-          }),
-          defineField({
-            title:"Owner Name",
-            name:"ownername",
-            type:"string"
-          }),
           defineField({
             title:"blog raiting",
             name:"blogRaiting",
