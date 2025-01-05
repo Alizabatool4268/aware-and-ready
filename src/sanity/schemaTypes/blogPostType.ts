@@ -36,13 +36,48 @@ const postType = defineType({
             type:"number"
           }),
         defineField({
-            title:"post Intoduction",
-            name:"postIntroduction",
+            title:"Disease Intoduction",
+            name:"diseaseIntroduction",
+            type:"text"
+        }),
+        defineField({
+            title:"Causes",
+            name:"causes",
             type:"text"
         }),
         defineField({
             title:"Disease Impact",
             name:"DiseaseImpact",
+            type:"text"
+        }),
+        defineField({
+            title:"Total Reported Cases",
+            name:"totalReportedCases",
+            type:"string"
+        }),
+        defineField({
+            title:"Severe Cases",
+            name:"severeCases",
+            type:"string"
+        }),
+        defineField({
+            title:"Deaths",
+            name:"deaths",
+            type:"string"
+        }),
+        defineField({
+            title:"Countries with Active Transmission",
+            name:"countrieswithActiveTransmission",
+            type:"string"
+        }),
+        defineField({
+            title:"Global Risk Assessment",
+            name:"globalRiskAssessment",
+            type:"string"
+        }),
+        defineField({
+            title:"Symptoms",
+            name:"symptoms",
             type:"text"
         }),
         defineField({
