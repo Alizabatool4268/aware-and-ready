@@ -32,7 +32,7 @@ function Header() {
         {/*for mobile screens*/}
         <div className='flex justify-around items-center bg-black text-white h-[50px] msm:hidden sm:hidden md:hidden lg:hidden'>
          <div className='text-[30px] ssm:text-[24px] xsm:text-[20px]'>
-            Overview
+           Aware and Ready
           </div>
          <button
          onClick={togglesidebar}
@@ -45,7 +45,7 @@ function Header() {
         } md:hidden transition-transform duration-300 ease-in-out bg-white w-64 shadow-lg z-50`}>
           <button onClick={togglesidebar}><RxCross2/></button>
           <div className='text-[30px] ssm:text-[24px] xsm:text-[20px] ml-8'>
-            Overview
+            Aware and Ready
           </div>
           <div className=' w-[300px] flex justify-between items-center flex-col gap-5 ssm:w-[230px] xsm:text-sm xsm:w-[210px]'>
             <Link href={"/"}>Home</Link>
