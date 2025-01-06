@@ -20,13 +20,13 @@ function Header() {
     <header className='overflow-x-hidden'>
       {/* dekstop side bar */}
         <div className='flex justify-around items-center bg-black text-white h-[50px] xsm:hidden ssm:hidden'>
-          <div className='text-[30px] ssm:text-[24px] xsm:text-[20px]'>
+          <div className='text-[30px] ssm:text-[24px] xsm:text-[20px] msm:text-[20px]'>
             Aware and Ready
           </div>
           <div className=' w-[320px] text-[18px] flex justify-between items-center ssm:w-[230px] xsm:text-sm xsm:w-[210px]'>
             <Link href={"/"}>Home</Link>
-            <Link href={"/AboutUs"}>About us</Link>
-            <Link href={"/latestposts"}> Latest Posts</Link>
+            <Link href={"/Aboutus"}>About us</Link>
+            <Link href={"/latestpost"}> Latest Posts</Link>
           </div>
         </div>
         {/*for mobile screens*/}
@@ -49,8 +49,8 @@ function Header() {
           </div>
           <div className=' w-[300px] flex justify-between items-center flex-col gap-5 ssm:w-[230px] xsm:text-sm xsm:w-[210px]'>
             <Link href={"/"}>Home</Link>
-            <Link href={"/AboutUs"}>About us</Link>
-            <Link href={"/latestposts"}> Latest Posts</Link>
+            <Link href={"/Aboutus"}>About us</Link>
+            <Link href={"/latestpost"}> Latest Posts</Link>
           </div>
         </div>
         {Opensidebar && (
