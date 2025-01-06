@@ -6,7 +6,7 @@ import { groq } from 'next-sanity';
 import Loader from '@/components/Loader';
 import { useState,useEffect } from 'react';
 import Image from 'next/image';
-import {Table,TableHeader,TableBody,TableFooter,TableHead,TableRow,TableCell,TableCaption} from "@/components/ui/table"
+import {Table,TableHeader,TableBody,TableHead,TableRow,TableCell,TableCaption} from "@/components/ui/table"
 
 interface PageProps{
     params:Promise<{
