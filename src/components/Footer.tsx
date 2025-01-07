@@ -46,7 +46,7 @@ function Footer() {
          </span>
       </div>
       <div className='flex justify-around items-center bg-black'>
-            <p className='text-white'>© Inclusify - All Rights Reserved</p>
+            <p className='text-white text-sm overflow-x-hidden'>© Aware and ready - All Rights Reserved</p>
              <span className=' flex justify-center items-center gap-1 text-white'>
                 <FaFacebook />
                 <FaTwitterSquare />
